@@ -7,6 +7,7 @@ on:
 
 jobs:
   data-review:
+    runs-on: ubuntu-latest_64core
     uses: linz/topographic-system/.github/workflows/data-review.yml@master
     with:
       environment: nonprod
